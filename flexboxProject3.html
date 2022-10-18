@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-project3</title>
+    <style>
+        body{
+            display: flex;
+            font-size: 30px;
+            margin: 0px;
+        }
+        .container1{
+            background-color: lightgreen;
+            padding: 20px;
+            width: 20%;
+        }
+        .container2{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+        .item1, .item3{
+            background-color: green;
+            flex-basis: 150px;
+            padding: 20px;
+        }
+        .item2{
+            flex-basis: 350px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        Nav
+    </div>
+    <div class="container2">
+        <div class="item1">Header</div>
+        <div class="item2">Article</div>
+        <div class="item3">Footer</div>
+    </div>
+</body>
+</html>
